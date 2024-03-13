@@ -1,0 +1,28 @@
+.product-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 16px;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.product img {
+  max-width: 100%;
+  height: 200px;
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
+.filters {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 205px;
+}
+.product-container {
+  display: grid;
+}

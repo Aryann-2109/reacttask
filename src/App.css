@@ -1,0 +1,10 @@
+h1 {
+  text-align: center;
+  color: rebeccapurple;
+}
+
+.prod {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 80px;
+}
